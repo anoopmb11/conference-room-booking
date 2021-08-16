@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rooms</title>
+</head>
+
+<body>
+    <h1>Welcome to Rooms</h1>
+    <form>
+        Room Name:
+        <select id="room-name-select"></select> Number of participants:
+        <input type="number" id="numberOfParticipants" /> Start Time:
+        <input type="time" id="startTime" /> End Time:
+        <input type="time" id="endTime" />
+        <button id="click" type="button">Click here</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Room Name</th>
+                <th>No Of Participants</th>
+                <th>Start Time</th>
+                <th>End time</th>
+            </tr>
+        </thead>
+        <tbody id="booking-details"></tbody>
+    </table>
+</body>
+<script src="/index2.js"></script>
+
+</html>
